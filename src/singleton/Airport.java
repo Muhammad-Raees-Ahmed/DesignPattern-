@@ -1,5 +1,6 @@
 package singleton;
 
+// this is lazy initialization way of singleton
 public class Airport {
 
     private static Airport airport = null;

@@ -1,10 +1,14 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import singleton.Airport;
+
+
 public class Main {
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+
+        Airport airport1=Airport.getAirport();
+        Airport airport2=Airport.getAirport();
+
+        System.out.println("hashCode of airport1 : "+airport1.hashCode());
+        System.out.println("hashCode of airport2 : "+airport2.hashCode());
     }
 }
