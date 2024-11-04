@@ -1,8 +1,9 @@
 package singleton;
 
 /* Singleton means one object
- this is lazy initialization way of singleton (this is not thread safe) if we have multiple threads and you want thread safety should use synchronized keyword
- best approach is "should use  synchronized block"*/
+ this is lazy initialization/lazy instantiation way of singleton (this is not thread safe) if we have multiple threads and you want thread safety should use synchronized keyword
+ best approach is "should use  synchronized block"
+ Examples DB Connection,Server Connection(Retrofit,Volley)*/
 public class Airport {
 
     private static Airport airport = null;
